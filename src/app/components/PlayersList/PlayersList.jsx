@@ -1,11 +1,10 @@
-import React, { useState, useContext } from "react";
+import React, { useContext } from "react";
 import { AppContext } from '../../context/provider';
 import { PUBLIC_URL } from '../../constants/routes';
 import './index.css';
 
 const PlayersList = ({ users }) => {
     const { state: { uid }} = useContext(AppContext);
-    const [state, setState] = useState({ selected: null, users: [] });
 
     const isThisUser = (user) => {
         return user?.id === uid;
@@ -33,10 +32,6 @@ const PlayersList = ({ users }) => {
                 :
                 false
         ))
-    }
-    const getUserData = (event) => {
-        const user = users.find(u => u.id === event.target.value)     
-        setState({ ...state, selected: user });
     }
 
     return (
