@@ -1,0 +1,42 @@
+#snake-game {
+  margin: 0 auto;
+  width: fit-content;
+  position: relative;
+  height: 90vh;
+  color: #fff;
+}
+#snake-game #board {
+  margin: 0;
+  color: #fff;
+}
+
+#snake-game h2 {
+  margin: 0;
+}
+
+#snake-game .game-area {
+  position: relative;
+  margin: 10px auto;
+  width: 600px;
+  height: 600px;
+  border: 2px solid #000;
+  background-color: #f96e7d08;
+}
+
+#snake-game .game-area .snake-dot {
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  background-color: rgb(47 214 0);
+  border: 1px solid rgb(221 255 0);
+  z-index: 2;
+}
+
+#snake-game .game-area .snake-food {
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  background: #ec5080;
+  border: 1px solid #753595;
+  z-index: 1;
+}

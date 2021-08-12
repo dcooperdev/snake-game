@@ -1,0 +1,21 @@
+#users-lobby-select-profile .container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#users-lobby-select-profile .container .col-4 {
+    width: 30%;
+}
+
+#users-lobby-select-profile .container .col-4 h2 {
+    margin-top: 0;
+}
+
+#users-lobby-select-profile .container .col-8 {
+    width: 50%;
+}
+
+#users-lobby-select-profile .container .col-4 select {
+    width: 100%;
+}

@@ -1,0 +1,36 @@
+header {
+    font-family: "Asap", sans-serif;
+    max-width: 100%;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 10px 15px 10px rgb(2 128 144 / 20%); 
+    box-shadow: 0px 10px 15px 10px rgb(2 128 144 / 20%);
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    margin: 0;
+    color: #00004A;
+    font-family: 'Luckiest Guy', cursive;
+}
+header #user-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+header #user-menu .name span {
+    font-weight: 600;
+}
+header #user-menu .role {
+    font-size: 12px;
+}
+header #user-menu #user-icon, header #logout-button > img {
+    width: 48px;
+    height: 48px;
+}
+header #user-menu .not-background-button {
+    background-color: transparent;
+    border: 0px solid transparent;
+    cursor: pointer;
+}

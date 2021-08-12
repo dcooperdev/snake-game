@@ -1,0 +1,50 @@
+#users-list {
+    list-style: none;
+    padding: 0;
+}
+
+#users-list .profile {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 1rem;
+    border: 3px double #FF4294;
+    border-radius: 5px;
+    background: rgb(116,53,149);
+    background: linear-gradient(90deg, rgba(116,53,149,1) 0%, rgba(218,49,120,1) 35%, rgba(252,116,126,1) 100%);
+}
+
+#users-list .profile .profile-image {
+    width: fit-content;
+    border-radius: 100px;
+    overflow: hidden;
+    margin-right: 1rem;
+}
+
+#users-list .profile .profile-image img {
+    width: 64px;
+    height: auto;
+}
+
+#users-list .profile .profile-information {
+    position: relative;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+    color: #00004A;
+}
+
+#users-list .profile .profile-information  div, #users-list .profile .profile-information span {
+    font-family: 'Luckiest Guy', cursive;
+}
+
+#users-list .profile .profile-information span {
+    color: #231e1e;
+    position: relative;
+    margin-left: 10px;
+    z-index: 10;
+}
+#users-list .profile .profile-information #crown {
+    width: 36px;
+    position: absolute;
+    top: 12px;
+    left: 80px;
+}
